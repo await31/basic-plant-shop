@@ -1,0 +1,97 @@
+#signup-form {
+    background-color: white;
+    max-width: 500px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* Style the input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+/* Style the submit button */
+input[type="submit"] {
+    width: 100%;
+    background-color: #16B5C4;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #11aab8;
+}
+
+#content-container {
+    background-image: linear-gradient(to right, #43cea2, #185a9d);
+}
+
+#message,
+#message2,
+#message3,
+#message4 {
+    max-width:300px;
+    display:none;
+    background-color: white;
+    color: #000;
+    position: relative;
+    padding: 10px;
+}
+
+#message p,
+#message2 p,
+#message3 p,
+#message4 p{
+    padding: 0 35px;
+    font-size: 12px;
+}
+
+#message h4,
+#message2 h4,
+#message3 h4{
+    font-size: 14px;
+    line-height: 2;
+}
+
+#message4 h4 {
+    font-size: 13px;
+    line-height: 2;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+    content: "\2713";
+}
+
+/* Add a red text color and an "x" icon when the requirements are wrong */
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+    content: "\2717";
+}
+
+#content-container {
+    padding-top: 8%;
+    padding-bottom: 8%;
+}

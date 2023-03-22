@@ -1,0 +1,39 @@
+header {
+    border-bottom: 1px solid #e3e9ed;
+}
+
+nav-link a {
+    font-size: 18px;
+}
+
+footer {
+    border-top: 1px solid #e3e9ed;
+}
+
+nav-hover:hover {
+    background-color: gray;
+    color: #16B5C4;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+.navbar {
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+@media only screen and (max-width: 992px)  {
+    #title-switch-color {
+        display: none;
+    }
+}
+
+a {
+    text-decoration: none;
+}
