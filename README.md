@@ -1,3 +1,3 @@
 # basicplantshop
 
-This is my First web Project using Java Servet
+This is my first web project using Java Servet
